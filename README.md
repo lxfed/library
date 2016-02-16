@@ -82,13 +82,26 @@
 		- 属性冒号后空格；
 		- 条件语句保留字后空格；
 		- 逻辑运算符前后空格；
+	- 字符串拼接使用数组和其方法`join`转换；
 
 
 	**代码范例**：
 	
 	```javascript
 	var configMap = {...},
-		str = 'name';
+		str = 'name',
+		data = [
+			{
+				a: '1'
+			},
+			{
+				b: '2'
+			}
+		],
+		htmlStr = [
+			'<input type="text" disabled>',
+			'<input type="checkbox" value="1" checked>'
+		].join('');
     
 	function func() {
 		'use strict';
@@ -105,7 +118,6 @@
 					// 代码
 				}
 			};
-		
 		
 		if (bar && baz) {
 			obj = {};
