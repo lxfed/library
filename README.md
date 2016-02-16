@@ -15,13 +15,51 @@
 ## <span id="standard">一、规范</span>
 * ### HTML
 
+	- 使用4格缩进；
+	- 不要创建无样式信息的`class`，使用`id`和属性作为hook方式；
+	- 同一页面避免使用同名`name`和`id`；
+	- 对于无需自闭合的标签，不要自闭合；
+	
+		> 常见无需自闭合标签有input、br、img、hr等。
+	- 标签的使用应该遵循标签的语义；
+		
+		> - p - 段落
+		> - h1,h2,h3,h4,h5,h6 - 层级标题
+		> - strong,em - 强调
+		> - ins - 插入
+		> - del - 删除
+		> - abbr - 缩写
+		> - code - 代码标识
+		> - cite - 引述来源作品的标题
+		> - q - 引用
+		> - blockquote - 一段或长篇引用
+		> - ul - 无序列表
+		> - ol - 有序列表
+		> - dl,dt,dd - 定义列表
+	- 属性名使用小写字母；
+	- 布尔类型的属性，建议不添加属性值；
+		> 例如： 
+		> 
+		```html
+			<input type="text" disabled>
+			<input type="checkbox" value="1" checked>
+		```
+	
+参考CSS命名规范
+
 * ### CSS
 
+使用[BEM](https://en.bem.info/)。
+
+了解更多：
+
+[如何看待 CSS 中 BEM 的命名方式？［知乎］](https://www.zhihu.com/question/21935157)
+[BEM教程](http://www.w3cplus.com/css/css-layers.html)
 
 
 * ### JavaScript
 
-	1. 4个字符缩进；
+	1. 使用4格缩进；
 	2. 使用单引号；
 	3. 使用严格模式；
 	4. 声明提前；
