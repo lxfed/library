@@ -39,11 +39,13 @@
 	- 属性名使用小写字母；
 	- 使用 HTML5 的`doctype`来启用标准模式，建议使用大写的`DOCTYPE`；
 	- 在 html 标签上设置正确的 lang 属性：
+
 		```html 
 		<html lang="zh-CN">
 		```
 	- HTML 文件使用无 BOM 的 UTF-8 编码；
 	- 布尔类型的属性，建议不添加属性值，例如： 
+
 		> 
 		```html
 			<input type="text" disabled>
