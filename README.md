@@ -58,6 +58,11 @@
 	
 	了解更多：
 	
+	[emmet BEM 插件](http://docs.emmet.io/filters/bem/)
+	
+	PS：idea和webstorm自带emmet
+	![](http://7xieoy.com1.z0.glb.clouddn.com/bem.png)
+	
 	[如何看待 CSS 中 BEM 的命名方式？［知乎］](https://www.zhihu.com/question/21935157)
 	
 	[BEM教程](http://www.w3cplus.com/css/css-layers.html)
