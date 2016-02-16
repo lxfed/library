@@ -69,8 +69,8 @@
 	- 使用单引号；
 	- 使用严格模式；
 	- 声明提前；
-	- 局部变量用下划线拼接单词 **_** *（下划线）*；
-	- 全局变量用驼峰拼接单词 **-** *(中划线)*；
+	- 局部变量用下划线拼接单词 *（例如：`temp_data`）*；
+	- 全局变量用驼峰拼接单词 *(例如：`getName`)*；
 	- 名字最后方便可以加上预期的数据类型，如configMap, elt_list, elt_str等；
 	- 换行：
 		- json风格数组对象元素之间换行；
@@ -106,18 +106,17 @@
 	function func() {
 		'use strict';
 		
-		var config_map = {...},
-			obj = {
-				foo: 'name',
+		var obj = {
+			foo: 'name',
 				
-				func1: function () {
-					// 代码
-				},
+			func1: function () {
+				// 代码
+			},
 				
-				func2: function () {
-					// 代码
-				}
-			};
+			func2: function () {
+				// 代码
+			}
+		};
 		
 		if (bar && baz) {
 			obj = {};
